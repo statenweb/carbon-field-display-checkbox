@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name: Carbon Field Display
- * Description: Display Field extension for Carbon Fields.
- * Version: 2.0.0
- * Author: htmlburger
+ * Plugin Name: Carbon Field Display Checkbox
+ * Description: Display Field extension for Carbon Fields. Displays "yes" instead of 1 for displaying checkbox values
+ * Version: 0.0.1
+ * Author: htmlburger, matgargano
  * Author URI: https://statenweb.com/
  * Plugin URI: http://statenweb.com/
  * License: GPL2
  * Requires at least: 4.0
  * Tested up to: 4.8
- * Text Domain: carbon-field-display
+ * Text Domain: carbon-field-display-checkbox
  * Domain Path: /languages
  */
 
