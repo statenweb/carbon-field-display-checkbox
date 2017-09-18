@@ -1,0 +1,39 @@
+{
+    "name": "statenweb/carbon-field-display-checkbox",
+    "description": "Carbon Fields extension, that adds a display field type for a checkbox where if 1 it is set to 'yes'.",
+    "keywords": ["wordpress", "carbon-field", "carbon-field-display"],
+    "homepage": "https://github.com/statenweb/carbon-field-display-checkbox/",
+    "type": "library",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Mat Gargano",
+            "email": "mat@statenweb.com"
+        },
+        {
+            "name": "Plamen Kostadinov",
+            "email": "pkostadinov.2create@gmail.com"
+        },
+        {
+            "name": "Atanas Angelov",
+            "email": "atanas.angelov.dev@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Viktor Vasilev",
+            "email": "liberalcho@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^2.0"
+    },
+    "autoload": {
+        "files": [
+            "field.php"
+        ],
+        "psr-4": {
+            "Carbon_Field_Display\\": "core/"
+        }
+    }
+}
